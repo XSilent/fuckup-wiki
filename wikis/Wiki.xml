@@ -1,0 +1,660 @@
+<REVISION-12 user="guest" timestamp="1297097841">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Upload"":
+Wenn Du eine Datei (erstmal egal welche) hochlädst... dann landet diese
+im Ordner ../fuckup_wiki/upload.
+
+Dort bekommt die Datei den Dateinamen der beim Upload angegeben war ""UND""
+ausserdem den Seitennamen (von dem hochgeladen wurde) als Präfix vorangestellt.
+z.B.: Datei hiess: "alternative_sender.htm". Nach dem Upload heisst die Datei
+"links_alternative_sender.htm" wenn die Datei über die Seite "links" hochgeladen
+wurde.
+LEIDER finde ich derzeit nur eine einzige Möglichkeit auf diese hochgeladene
+Datei zu verlinken: die Komplette url (inklusive http://www.example.org )
+mit anzugeben. 
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+
+==Erstellen einer neuen Seite==
+Einfach an °index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+
+</REVISION-12>
+<REVISION-11 user="guest" timestamp="1297097812">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Upload"":
+Wenn Du eine Datei (erstmal egal welche) hochlädst... dann landet diese
+im Ordner ../fuckup_wiki/upload.
+
+Dort bekommt die Datei den Dateinamen der beim Upload angegeben war ""UND""
+ausserdem den Seitennamen (von dem hochgeladen wurde) als Präfix vorangestellt.
+z.B.: Datei hiess: "alternative_sender.htm". Nach dem Upload heisst die Datei
+"links_alternative_sender.htm" wenn die Datei über die Seite "links" hochgeladen
+wurde.
+LEIDER finde ich derzeit nur eine einzige Möglichkeit auf diese hochgeladene
+Datei zu verlinken: die Komplette url (inklusive http://www.wordbyword.de )
+mit anzugeben. 
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+
+==Erstellen einer neuen Seite==
+Einfach an °index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+
+</REVISION-11>
+<REVISION-10 user="guest" timestamp="1079084050">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Upload"":
+Wenn Du eine Datei (erstmal egal welche) hochlädst... dann landet diese
+im Ordner ../fuckup_wiki/upload.
+
+Dort bekommt die Datei den Dateinamen der beim Upload angegeben war ""UND""
+ausserdem den Seitennamen (von dem hochgeladen wurde) als Präfix vorangestellt.
+z.B.: Datei hiess: "alternative_sender.htm". Nach dem Upload heisst die Datei
+"links_alternative_sender.htm" wenn die Datei über die Seite "links" hochgeladen
+wurde.
+LEIDER finde ich derzeit nur eine einzige Möglichkeit auf diese hochgeladene
+Datei zu verlinken: die Komplette url (inklusive http://www.wordbyword.de )
+mit anzugeben. 
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-10>
+<REVISION-9 user="guest" timestamp="1079084039">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+""Upload"":
+Wenn Du eine Datei (erstmal egal welche) hochlädst... dann landet diese
+im Ordner ../fuckup_wiki/upload.
+
+Dort bekommt die Datei den Dateinamen der beim Upload angegeben war ""UND""
+ausserdem den Seitennamen (von dem hochgeladen wurde) als Präfix vorangestellt.
+z.B.: Datei hiess: "alternative_sender.htm". Nach dem Upload heisst die Datei
+"links_alternative_sender.htm" wenn die Datei über die Seite "links" hochgeladen
+wurde.
+LEIDER finde ich derzeit nur eine einzige Möglichkeit auf diese hochgeladene
+Datei zu verlinken: die Komplette url (inklusive http://www.wordbyword.de )
+mit anzugeben. 
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-9>
+<REVISION-8 user="lux" timestamp="1075553450">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-8>
+<REVISION-7 user="Ahab" timestamp="1075289124">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Mit °[hr]° kann ein Trennstrich (HTML: <hr>) eingefügt werden
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-7>
+<REVISION-6 user="Ahab" timestamp="1075286011">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-6>
+<REVISION-5 user="Ahab" timestamp="1075282965">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/ ). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-5>
+<REVISION-4 user="Ahab" timestamp="1075282231">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jede/r kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-4>
+<REVISION-3 user="guest" timestamp="1075282182">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jeder kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"http://www.wordbyword.de/fuckup_wiki/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-3>
+<REVISION-2 user="guest" timestamp="1075280562">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jeder kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"https://fuckup.homeunix.net/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-2>
+<REVISION-1 user="guest" timestamp="1075280533">==Was ist ein Wiki?==
+Ein Wiki ist eine [[Anarchie|anarchistische]] Website. Es gibt keine Autorität (Administrator), die einen einschränkt. Jeder kann machen (schreiben) was er will, solange er keinen Anderen in seinen Tun einschränkt (Zensur).
+Ein Wiki ist ein gutes Beispiel dafür, dass Anarchie funktionieren kann (z.b.: http://de.wikipedia.org/). Siehe dazu z.B. auch http://de.wikipedia.org/wiki/Wiki .
+
+==Was für Wiki-Befehle versteht dieses Wiki?==
+Das Wiki wird noch entwickelt, darum gibt es noch nicht alle Befehle, die es in anderen Wikis gibt, aber z. Zt. gibt es:
+
+""Textformatierung:""
+· °""Fett""°                  -     Text zwischen °"" und ""° wird fett dargestellt.
+· °"""Kursiv"""°              -     Text zwischen °""" und """° wird kursiv dargestellt.
+· °""""Unterstrichen""""°     -     Text zwischen °"""" und """"° wird unterstrichen dargestellt.
+· °[center]°"""Text"""°[/center]° - Text zentrieren.
+· °[code]°"""Text"""°[/code]° -     Text wird als nichtproportionale Schrift (monospace) angezeigt.
+[[Wiki:Examples:Format|Beispiele]]
+
+""Links:""
+Normale Links:
+· °[[°"""Name"""°]]° - erzeugt einen Link zur WikiPage """Name""".
+· °[[°"""Name"""|"""Bezeichnung"""°]]° - erzeugt einen Link zur WikiPage """Name""" mit dem Titel """Bezeichnung""".
+Spezial-Links:
+· °[[FWikiEdit]]° - Zeigt 'Ändern' an, verlinkt den Editmodus der aktuellen Seite.
+· °[[FWikiEdit|Was auch immer]]° - geht auch.
+· °[[FWikiUser|Einstellungen|Anmelden]]° - Verlinkt die Benutzerverwaltungsseite, zeigt entweder "Einstellungen" oder "Anmelden" an, je nachdem ob der User eingeloggt ist oder nicht.
+· °[[FWikiUser]]° - das selbe wie °[[FWikiUser|Benutzer-Einstellungen|Anmelden]]°
+[[Wiki:Examples:Link|Beispiele]]
+
+""Strukturierungselemente:""
+· Überschriften macht man mit °=Blah=°, die Anzalh der = bestimmt den Typ der Überschrift
+· Ein * am Anfang einer Zeile erzeugt einen Listenpunkt, mehrere solche Zeilen eine Liste :)
+· Mit > am Zeilenanfang kann man ein Newsletter-Style zitieren. Verschachtelung: Möglich.
+· Doppelpunkt (:) am Anfang der Zeile wird als Texteinzug gehandhabt.
+· Tabellen kann man mit | am Zeilenanfang und -ende machen. Weitere | dazwischen erzeugen weitere Zellen.
+[[Wiki:Examples:Structure|Beispiele]]
+
+""Sonstiges:""
+· °[img src=°"""Quelle"""°]° zeigt ein Bild an. Quelle kann eine URL als auch ein hochgeladenes Bild sein (einfach nur den Dateinamen angeben).
+· Möchte man bestimmte Stellen einer Wikiseite von deren Interpretation als WikiCode abhalten, muss man sie zwischen 2 [SHIFT+^] setzen.
+[[Wiki:Examples:Misc|Beispiele]]
+
+==WikiCodes testen==
+Kann man natürlich überall, sollte man aber lieber hier oder da:
+* [[Spielwiese]]
+* [[test]]
+
+==Erstellen einer neuen Seite==
+Einfach an °"https://fuckup.homeunix.net/index.php?"° den Namen der Seite anfügen die man erstellen will. Z.B. "[...]/index.php?MeinName", die URL mit der Eingabetaste abschicken und die angezeigte, leere Seite mit einem Klick auf 'ändern' editieren.
+
+==Weblinks==
+http://www.wikiservice.at/dse/wiki.cgi?DasRichtigeWiki - Liste von Wikis nach Sprachen geordnet.
+</REVISION-1>

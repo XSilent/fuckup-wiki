@@ -1,0 +1,151 @@
+body,td{
+    color: #000000;
+	font-family: Verdana,tahoma,helvetica;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{background-color: #FFF3E0;
+	background-image:url(http://www.rhso.net/jrr/pierreback.gif); }
+
+input, textarea, select{
+    color: #000000;
+	background-color: #FFF3D2;
+    font-family: Verdana,tahoma,helvetica;
+    font-size: 11px;
+border: 1px solid #000000;
+}
+
+a:link
+	{color: #A40001;
+	text-decoration: none;
+	background: transparent;}
+
+a:visited
+	{color: #A40001;
+	text-decoration: none;
+	background: transparent;}
+
+a:hover
+    {color: #A40001;
+	text-decoration: none;
+	background: transparent;}
+
+a:active
+	{color: #A40001;
+	text-decoration: none;
+	background: #FFF3D2;
+border: 1px solid #000000;}
+
+.LayoutTable{
+  background-color: #FFF3E0;
+  border:1px solid #000000;
+
+}
+
+.TableCaption{
+ color: #FFFFFF;
+ background-color: #FB6D05;
+ padding: 3px;
+    font-family: Verdana,tahoma,helvetica;
+    font-size: 11px;
+ font-weight: bold;
+ border: 1px solid #000000;
+}
+
+
+.code{
+  font-family: monospace;
+  font-size: 10px;
+  line-height: 8px;
+}
+
+.WikiTable
+	{color:  #FFF3E0;
+	border:1px solid #000000;
+	padding: 1px;}
+
+.WikiH1{
+	color: #000000;/*#324058;*/
+	background-color: #F5E9D6;/* #6480AF;*/
+	font-family: sans-serif;
+	margin-bottom: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	font-size: 140%;
+	border: 1px solid #000000;}
+
+.WikiH2{
+	background: #F5E9D5;
+	border: 1px solid #000000;
+	font-family: sans-serif;
+	color: #000000;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 120%;
+	font-weight: bold;}
+
+.WikiH3{
+    font-family: sans-serif;
+	color: #000000;
+	font-size: 120%;
+	font-weight: bold;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;}
+	
+.WikiH4{
+    font-family: sans-serif;
+	color: #000000;
+	font-size: 105%;
+	font-weight: bold;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;}
+
+.WikiUL
+	{margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;}
+
+img{
+       border: 0;
+}
+
+a.menu{
+	   white-space:nowrap;
+}
+	
+
+.warning{
+	   color: #FF0000;
+	   font-size: 105%;
+}	
+
+.error{
+	   color: #FF0000;
+}
+
+.success{
+	   color: #00FF00;
+}
+
+.UserTable{
+	   border: none;
+}

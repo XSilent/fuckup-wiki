@@ -1,0 +1,31 @@
+FUCKUP-Wiki - A free Wiki Software
+
+2011-02-16, Version 0.6, Michael Neuhaus
+----------------------------------------
+
+	Refactoring:
+	The Version 0.6 is the result of the refactoring
+	of the FUCKUP-Wiki code version 0.4 from 2004, 
+	originally written by Mutwin Kraus and Lukas Bombach.
+	
+	- the code was ported from PHP4 to PHP5
+	
+	- all functions where grouped to classes
+	
+	- some new class/interfaces introduced
+	
+	- some unreachable code was removed
+	
+	- the html layout was splitted in more files
+	to give more possibilities for own templates
+	
+	- the user passwords are now stored as hased values
+	(the hash algo is configurable)
+	
+	- new possibility to use wiki extensions via wiki
+	elements: [Wikielement: "<FWikiClassName>"]
+	
+	- bugfix: On new user registration, a new wiki page
+	will be stored (with the username)
+	
+	
